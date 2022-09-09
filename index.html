@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/music-note-128.ico?v=1662752857535" />
+
+    <title>Sound Wave Studio</title>
+
+    <meta
+      name="description"
+      content="A Web Based Digital Audio Workstation."
+    />
+    
+    <!-- Import the style -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the javacscritp file -->
+    <script src="/script.js" defer></script>
+    
+    
+  </head>
+  
+  <header class="contactheader">
+<!--     <a href="https://www.w3schools.com">Visit W3Schools</a> -->
+    <span class="contact"> LinkedIn: https://www.linkedin.com/in/andrey-gavrilchik/ </span>
+    <span class="contact"> Email: andrey.98m@gmail.com </span>
+    <span class="contact"> Phone: 1-916-671-6721 </span>
+  </header>
+  
+  <header class="header">
+    <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/waveformlogo-transparent.png?v=1661996323043" class="headerlogo">
+    <div class="headerbuttons" id="headerbuttons">
+      <span class="librarybutton" id="librarybutton">Library</span>
+      <span class="settingsbutton" id="settingsbutton">Settings</span>
+      <span class="myaccountbutton" id="myaccountbutton">My Account</span>
+    </div>
+  </header>
+  
+  <body id="body">
+    
+    <div class="buttonsandmastercontrols" id="buttonsandmastercontrols">
+      
+     <div class="buttonsleftside" id="buttonsleftside">
+      <div class="newproject" id="newproject">
+        New Project
+      </div>
+      <div class="savetolibrary" id="savetolibrary">
+        Save to Library
+      </div>
+    </div>
+    
+    <div class="mastercontrols">
+      <div class="mastercontrol" id="play">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/play-image-transparent.png?v=1661895028437" id="playimg">
+      </div>
+      <div class="mastercontrol" id="pause">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/pause-image-transparent.png?v=1661895012782" id="pauseimg">
+      </div>
+      <div class="mastercontrol" id="stop">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/stop-image-transparent.png?v=1661895032672" id="stopimg">
+      </div>
+      <div class="mastercontrol" id="record">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/record-image-transparent.png?v=1661895036312" id="recordimg">
+      </div>
+      <div class="mastercontrol" id="loop">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/loop-image-transparent.png?v=1661895040898" id="loopimg">
+      </div>
+      <div class="mastercontrol" id="undo">
+        <img src="https://cdn.glitch.global/f49d0236-9333-4ce3-a1b3-011399aa6ed4/undo-image-transparent.png?v=1661895043476" id="undoimg">
+      </div>
+
+      <div class="bpmcontainer">
+         <label class="bpmlabel" id="bpmlabel" for="bpm">Tempo: 120</label><br>
+         <input class="bpm" id="bpm" type="range" min="20" max="360" value="120">
+      </div>
+      
+       <div class="addtrack" id="addtrack">
+        <div class="plustrack" id="plustrack">
+        Add Track
+        </div>
+      </div>
+
+    </div>
+    
+     <div class="buttonsrightside" id="buttonsrightside">
+      <div class="downloadaswav" id="downloadaswav">
+        Download as .WAV
+      </div>
+      <div class="sharelink" id="sharelink">
+        Share Link
+      </div>
+    </div>
+
+    </div>
+    
+    <div class="center" id="center">
+      <div class ="maindiv" id="maindiv">
+
+      </div>
+      
+      <div class="directory" id="directory">
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
